@@ -97,6 +97,7 @@ bool ComplexVector::operator!() const   // true : exist v[i] != 0
 			return true;
 	return false;
 }
+
 bool ComplexVector::operator~() const  // true : all  v[i] != 0
 {
 	for (int i = 0; i < num; i++)

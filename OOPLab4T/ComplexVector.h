@@ -23,7 +23,7 @@ public:
 	ComplexVector(int n, ComplexDouble*);
 	ComplexVector(const ComplexVector& s);  // crot copy
 	ComplexVector& operator=(const ComplexVector& s);
-	ComplexVector& operator=(ComplexVector&& s) noexcept;
+	ComplexVector& operator=(ComplexVector & s) noexcept;
 	void Init(int n);   //
 	void Init(int n, ComplexDouble);   //
 	~ComplexVector() {
